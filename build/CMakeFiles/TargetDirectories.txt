@@ -1,0 +1,4 @@
+E:/Programming/PS1/Projects/Bong/build/CMakeFiles/bong.dir
+E:/Programming/PS1/Projects/Bong/build/CMakeFiles/iso.dir
+E:/Programming/PS1/Projects/Bong/build/CMakeFiles/edit_cache.dir
+E:/Programming/PS1/Projects/Bong/build/CMakeFiles/rebuild_cache.dir
