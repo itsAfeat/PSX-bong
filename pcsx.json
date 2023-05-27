@@ -131,7 +131,7 @@
     "ShowMemoryEditor7": false,
     "ShowMemoryEditor8": false,
     "ShowMemoryObserver": false,
-    "ShowMenu": false,
+    "ShowMenu": true,
     "ShowPIOCartConfig": false,
     "ShowParallelPortEditor": false,
     "ShowRegisters": false,
@@ -150,7 +150,7 @@
     "WindowSizeX": 1280,
     "WindowSizeY": 800
   },
-  "imgui": "[Window][Debug##Default]\nPos=60,60\nSize=400,400\nCollapsed=0\n\n[Window][Update configuration]\nViewportPos=10,20\nViewportId=0x8C93FDF7\nSize=389,272\nCollapsed=0\n\n[Window][System Configuration]\nPos=153,78\nSize=1024,512\nCollapsed=0\n\n[Window][Notification]\nViewportPos=10,20\nViewportId=0xA765AD32\nSize=274,96\nCollapsed=0\n\n[Window][Update available]\nViewportPos=10,20\nViewportId=0x14E7B468\nSize=292,160\nCollapsed=0\n\n[Window][Main VRAM Viewer]\nPos=231,131\nSize=1024,523\nCollapsed=0\n\n[Window][Pad configuration]\nViewportPos=70,90\nViewportId=0xBB61AA2F\nSize=350,500\nCollapsed=0\n\n[Table][0x6908F98D,2]\nRefScale=16\nColumn 0  Width=146\nColumn 1  Width=146\n\n[Docking][Data]\n\n",
+  "imgui": "[Window][Debug##Default]\nPos=60,60\nSize=400,400\nCollapsed=0\n\n[Window][Update configuration]\nViewportPos=10,20\nViewportId=0x8C93FDF7\nSize=389,272\nCollapsed=0\n\n[Window][System Configuration]\nPos=153,78\nSize=1024,512\nCollapsed=0\n\n[Window][Notification]\nViewportPos=10,20\nViewportId=0xA765AD32\nSize=274,96\nCollapsed=0\n\n[Window][Update available]\nViewportPos=10,20\nViewportId=0x14E7B468\nSize=292,160\nCollapsed=0\n\n[Window][Main VRAM Viewer]\nPos=89,131\nSize=1024,523\nCollapsed=0\n\n[Window][Pad configuration]\nViewportPos=70,90\nViewportId=0xBB61AA2F\nSize=350,500\nCollapsed=0\n\n[Table][0x6908F98D,2]\nRefScale=16\nColumn 0  Width=146\nColumn 1  Width=146\n\n[Docking][Data]\n\n",
   "loggers": {
     "CDROM": {
       "displayed": true,

@@ -23,9 +23,17 @@ void loadStuff()
     SPRITEs[0] = malloc(sizeof(SPRITE));
     SPRITEs[1] = malloc(sizeof(SPRITE));
     SPRITEs[2] = malloc(sizeof(SPRITE));
+    SPRITEs[3] = malloc(sizeof(SPRITE));
+    SPRITEs[4] = malloc(sizeof(SPRITE));
+    SPRITEs[5] = malloc(sizeof(SPRITE));
+    SPRITEs[6] = malloc(sizeof(SPRITE));
     SPRITEs[0] = &paul_sprite;
     SPRITEs[1] = &puyi_sprite;
     SPRITEs[2] = &title_sprite;
+    SPRITEs[3] = &backTL_sprite;
+    SPRITEs[4] = &backTR_sprite;
+    SPRITEs[5] = &backBL_sprite;
+    SPRITEs[6] = &backBR_sprite;
     
     SCENEs[0] = &sc_title;
     SCENEs[1] = &sc_game;

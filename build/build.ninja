@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = E$:/Programming/PS1/Projects/Bong/build/
+cmake_ninja_workdir = C$:/Users/BabyP/Desktop/Programming/PS1/Bong/build/
 # =============================================================================
 # Object build statements for EXECUTABLE target bong
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = E$:/Programming/PS1/Projects/Bong/build/
 
 build cmake_object_order_depends_target_bong: phony || CMakeFiles/bong.dir
 
-build CMakeFiles/bong.dir/src/main.c.obj: C_COMPILER__bong_unscanned_Debug E$:/Programming/PS1/Projects/Bong/src/main.c || cmake_object_order_depends_target_bong
+build CMakeFiles/bong.dir/src/main.c.obj: C_COMPILER__bong_unscanned_Debug C$:/Users/BabyP/Desktop/Programming/PS1/Bong/src/main.c || cmake_object_order_depends_target_bong
   DEFINES = -DPSN00BSDK=1
   DEP_FILE = CMakeFiles\bong.dir\src\main.c.obj.d
   FLAGS = -g -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -Og -mdivide-breaks -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata
@@ -70,7 +70,7 @@ build bong.elf bong.exe bong.map | ${cmake_ninja_workdir}bong.exe ${cmake_ninja_
   LINK_FLAGS = -TC:\PSn00bSDK\lib\libpsn00b\cmake\..\ldscripts\exe.ld -nostdlib -Wl,-gc-sections -G8 -static
   LINK_LIBRARIES = C:/PSn00bSDK/lib/gcc/mipsel-none-elf/12.3.0/libgcc.a  C:/PSn00bSDK/lib/libpsn00b/debug/libpsxgpu_exe_gprel.a  C:/PSn00bSDK/lib/libpsn00b/debug/libpsxgte_exe_gprel.a  C:/PSn00bSDK/lib/libpsn00b/debug/libpsxspu_exe_gprel.a  C:/PSn00bSDK/lib/libpsn00b/debug/libpsxcd_exe_gprel.a  C:/PSn00bSDK/lib/libpsn00b/debug/libpsxpress_exe_gprel.a  C:/PSn00bSDK/lib/libpsn00b/debug/libpsxsio_exe_gprel.a  C:/PSn00bSDK/lib/libpsn00b/debug/libpsxetc_exe_gprel.a  C:/PSn00bSDK/lib/libpsn00b/debug/libpsxapi_exe_gprel.a  C:/PSn00bSDK/lib/libpsn00b/debug/liblzp_exe_gprel.a  C:/PSn00bSDK/lib/libpsn00b/debug/libc_exe_gprel.a  C:/PSn00bSDK/lib/gcc/mipsel-none-elf/12.3.0/libgcc.a
   OBJECT_DIR = CMakeFiles\bong.dir
-  POST_BUILD = cmd.exe /C "cd /D E:\Programming\PS1\Projects\Bong\build && C:\PSn00bSDK\bin\elf2x.exe -q E:\Programming\PS1\Projects\Bong\build\bong.elf E:\Programming\PS1\Projects\Bong\build\bong.exe && C:\PSn00bSDK\bin\mipsel-none-elf-nm.exe -f posix -l -n E:\Programming\PS1\Projects\Bong\build\bong.elf >E:\Programming\PS1\Projects\Bong\build\bong.map"
+  POST_BUILD = cmd.exe /C "cd /D C:\Users\BabyP\Desktop\Programming\PS1\Bong\build && C:\PSn00bSDK\bin\elf2x.exe -q C:\Users\BabyP\Desktop\Programming\PS1\Bong\build\bong.elf C:\Users\BabyP\Desktop\Programming\PS1\Bong\build\bong.exe && C:\PSn00bSDK\bin\mipsel-none-elf-nm.exe -f posix -l -n C:\Users\BabyP\Desktop\Programming\PS1\Bong\build\bong.elf >C:\Users\BabyP\Desktop\Programming\PS1\Bong\build\bong.map"
   PRE_LINK = cd .
   RESTAT = 1
   TARGET_FILE = bong.elf
@@ -87,7 +87,7 @@ build iso: phony CMakeFiles/iso bong.bin bong.cue bong.elf
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\Programming\PS1\Projects\Bong\build && E:\CMake\bin\cmake-gui.exe -SE:\Programming\PS1\Projects\Bong -BE:\Programming\PS1\Projects\Bong\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\BabyP\Desktop\Programming\PS1\Bong\build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\BabyP\Desktop\Programming\PS1\Bong -BC:\Users\BabyP\Desktop\Programming\PS1\Bong\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -99,7 +99,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\Programming\PS1\Projects\Bong\build && E:\CMake\bin\cmake.exe --regenerate-during-build -SE:\Programming\PS1\Projects\Bong -BE:\Programming\PS1\Projects\Bong\build"
+  COMMAND = cmd.exe /C "cd /D C:\Users\BabyP\Desktop\Programming\PS1\Bong\build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\BabyP\Desktop\Programming\PS1\Bong -BC:\Users\BabyP\Desktop\Programming\PS1\Bong\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -116,8 +116,8 @@ build CMakeFiles/iso | ${cmake_ninja_workdir}CMakeFiles/iso: phony bong.bin bong
 #############################################
 # Custom command for bong.bin
 
-build bong.bin bong.cue | ${cmake_ninja_workdir}bong.bin ${cmake_ninja_workdir}bong.cue: CUSTOM_COMMAND bong.elf E$:/Programming/PS1/Projects/Bong/system.cnf || bong.elf
-  COMMAND = cmd.exe /C "cd /D E:\Programming\PS1\Projects\Bong\build && C:\PSn00bSDK\bin\mkpsxiso.exe -y -o bong.bin -c bong.cue E:/Programming/PS1/Projects/Bong/build/cd_image_d00471dcf544c6cf.xml"
+build bong.bin bong.cue | ${cmake_ninja_workdir}bong.bin ${cmake_ninja_workdir}bong.cue: CUSTOM_COMMAND bong.elf C$:/Users/BabyP/Desktop/Programming/PS1/Bong/system.cnf || bong.elf
+  COMMAND = cmd.exe /C "cd /D C:\Users\BabyP\Desktop\Programming\PS1\Bong\build && C:\PSn00bSDK\bin\mkpsxiso.exe -y -o bong.bin -c bong.cue C:/Users/BabyP/Desktop/Programming/PS1/Bong/build/cd_image_d00471dcf544c6cf.xml"
   DESC = Building CD image bong
   restat = 1
 
@@ -132,7 +132,7 @@ build bong: phony bong.elf
 # =============================================================================
 
 #############################################
-# Folder: E:/Programming/PS1/Projects/Bong/build
+# Folder: C:/Users/BabyP/Desktop/Programming/PS1/Bong/build
 
 build all: phony bong.elf iso
 
@@ -143,14 +143,14 @@ build all: phony bong.elf iso
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/PSn00bSDK/lib/libpsn00b/cmake/internal_setup.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/libpsn00b-debug.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/libpsn00b-release.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/libpsn00b.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/sdk.cmake CMakeCache.txt CMakeFiles/3.26.3/CMakeASMCompiler.cmake CMakeFiles/3.26.3/CMakeCCompiler.cmake CMakeFiles/3.26.3/CMakeCXXCompiler.cmake CMakeFiles/3.26.3/CMakeSystem.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeASMInformation.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/CMake/share/cmake-3.26/Modules/Compiler/GNU-ASM.cmake E$:/CMake/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/CMake/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake E$:/CMake/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/CMake/share/cmake-3.26/Modules/GNUInstallDirs.cmake E$:/CMake/share/cmake-3.26/Modules/Platform/Generic.cmake E$:/Programming/PS1/Projects/Bong/CMakeLists.txt E$:/Programming/PS1/Projects/Bong/iso.xml
+build build.ninja: RERUN_CMAKE | C$:/PSn00bSDK/lib/libpsn00b/cmake/internal_setup.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/libpsn00b-debug.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/libpsn00b-release.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/libpsn00b.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/sdk.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeASMInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/Compiler/GNU-ASM.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/Platform/Generic.cmake C$:/Users/BabyP/Desktop/Programming/PS1/Bong/CMakeLists.txt C$:/Users/BabyP/Desktop/Programming/PS1/Bong/iso.xml CMakeCache.txt CMakeFiles/3.26.4/CMakeASMCompiler.cmake CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/PSn00bSDK/lib/libpsn00b/cmake/internal_setup.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/libpsn00b-debug.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/libpsn00b-release.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/libpsn00b.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/sdk.cmake CMakeCache.txt CMakeFiles/3.26.3/CMakeASMCompiler.cmake CMakeFiles/3.26.3/CMakeCCompiler.cmake CMakeFiles/3.26.3/CMakeCXXCompiler.cmake CMakeFiles/3.26.3/CMakeSystem.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeASMInformation.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeCInformation.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake E$:/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake E$:/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/CMake/share/cmake-3.26/Modules/Compiler/GNU-ASM.cmake E$:/CMake/share/cmake-3.26/Modules/Compiler/GNU-C.cmake E$:/CMake/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake E$:/CMake/share/cmake-3.26/Modules/Compiler/GNU.cmake E$:/CMake/share/cmake-3.26/Modules/GNUInstallDirs.cmake E$:/CMake/share/cmake-3.26/Modules/Platform/Generic.cmake E$:/Programming/PS1/Projects/Bong/CMakeLists.txt E$:/Programming/PS1/Projects/Bong/iso.xml: phony
+build C$:/PSn00bSDK/lib/libpsn00b/cmake/internal_setup.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/libpsn00b-debug.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/libpsn00b-release.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/libpsn00b.cmake C$:/PSn00bSDK/lib/libpsn00b/cmake/sdk.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeASMInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/Compiler/GNU-ASM.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-3.26/Modules/Platform/Generic.cmake C$:/Users/BabyP/Desktop/Programming/PS1/Bong/CMakeLists.txt C$:/Users/BabyP/Desktop/Programming/PS1/Bong/iso.xml CMakeCache.txt CMakeFiles/3.26.4/CMakeASMCompiler.cmake CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
 
 
 #############################################

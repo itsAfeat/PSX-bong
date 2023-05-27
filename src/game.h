@@ -1,22 +1,26 @@
 #pragma once
 #define SCENELEN 6
 
-/**
- * Scene numbers
- * 5 = debug
- * 0 = title
- * 1 = game
- * 2 = win
- * 3 = credits
- * 4 = highscores
- */
-int current_scene = 0;
+typedef enum {
+    ID_TITLE = 0,
+    ID_GAME = 1,
+    ID_WIN = 2,
+    ID_CREDITS = 3,
+    ID_HIGHSCORES = 4,
+    ID_DEBUG = 5
+} SCENE_ENUM;
+
+int current_scene = ID_TITLE;
 
 const char* john_str1 = "In loving memory of John & Puyi";
 const char* john_str2 = "\"Bazinga\"";
 const char* title_str = "  START\nHIGHSCORE\n CREDITS";
-
 int title_y = 96;
+
+int player1_score = 0;
+int player2_score = 0;
+char player1_score_txt[1];
+char player2_score_txt[1];
 
 typedef struct {
     void (* const draw)(void);
@@ -59,11 +63,16 @@ static void debug_update(void)
                 if (isHeld(con1, PAD_RIGHT))
                 { paul_sprite.x+=5; }
 
+                if (isPressed(con1, PAD_L1) && isPressed(con1, PAD_R1))
+                { current_scene = ID_TITLE; }
+
                 if (isType(con1, PAD_ID_ANALOG) ||
                     isType(con1, PAD_ID_ANALOG_STICK))
                     {
                         int ls_x = con1._pad->ls_x-128;
                         int ls_y = con1._pad->ls_y-128;
+                        int rs_x = con1._pad->rs_x-128;
+                        int rs_y = con1._pad->rs_y-128;
 
                         if (ls_x < -10)
                         { paul_sprite.x -= ((ls_x < -50) ? 50 : -ls_x)/10; }
@@ -73,6 +82,15 @@ static void debug_update(void)
                         { paul_sprite.y -= ((ls_y < -50) ? 50 : -ls_y)/10; }
                         if (ls_y > 10)
                         { paul_sprite.y += ((ls_y > 50) ? 50 : ls_y)/10; }
+                        
+                        if (rs_x < -10)
+                        { puyi_sprite.x -= ((rs_x < -50) ? 50 : -rs_x)/10; }
+                        if (rs_x > 10)
+                        { puyi_sprite.x += ((rs_x > 50) ? 50 : rs_x)/10; }
+                        if (rs_y < -10)
+                        { puyi_sprite.y -= ((rs_y < -50) ? 50 : -rs_y)/10; }
+                        if (rs_y > 10)
+                        { puyi_sprite.y += ((rs_y > 50) ? 50 : rs_y)/10; }
                     }
             }
     }
@@ -112,12 +130,12 @@ static void title_update(void)
 
         if (isPressed(con1, PAD_CROSS) || isPressed(con1, PAD_START))
         {
-            if (title_y == 96)  { current_scene = 1; }
-            if (title_y == 112) { current_scene = 4; }
-            if (title_y == 128) { current_scene = 3; }
+            if (title_y == 96)  { current_scene = ID_GAME; player1_score = player2_score = 0; }
+            if (title_y == 112) { current_scene = ID_HIGHSCORES; }
+            if (title_y == 128) { current_scene = ID_CREDITS; }
         }
-        if (isPressed(con1, PAD_SELECT))
-        { current_scene = SCENELEN-1; }
+        if (isPressed(con1, PAD_L1) && isPressed(con1, PAD_R1))
+        { current_scene = ID_DEBUG; }
     }
 }
 
@@ -130,12 +148,29 @@ static void game_draw(void)
     #endif // DEBUG
 
     ClearOTagR(ot[db], OTLEN);
+    nextpri = sortSprite(0, 24, ot[db], nextpri, &backTL_sprite);
+    nextpri = sortSprite(backTL_sprite.w, 24, ot[db], nextpri, &backTR_sprite);
+    nextpri = sortSprite(0, 232-backBL_sprite.h, ot[db], nextpri, &backBL_sprite);
+    nextpri = sortSprite(backTR_sprite.w, 232-backBR_sprite.h, ot[db], nextpri, &backBR_sprite);
+    
+    sprintf(player1_score_txt, "%d", player1_score);
+    sprintf(player2_score_txt, "%d", player2_score);
+
+    nextpri = printFont(320/2-28, 4, ot[db], nextpri, player1_score_txt, &font8x16);
+    nextpri = printFont(320/2+20, 4, ot[db], nextpri, player2_score_txt, &font8x16);
 }
 static void game_update(void)
 {
     pollController(&con1);
     if (isConnected(con1))
-    { if (isPressed(con1, PAD_START)) { current_scene = 0; } }
+    {
+        if (isPressed(con1, PAD_START)) { current_scene = ID_TITLE; }
+        if (isPressed(con1, PAD_LEFT)) { player1_score++; }
+        if (isPressed(con1, PAD_RIGHT)) { player2_score++; }
+    }
+    
+    if (player1_score == 10 || player2_score == 10)
+    { current_scene = ID_WIN; }
 }
 
 /// WIN
@@ -167,7 +202,7 @@ static void credits_update(void)
 {
     pollController(&con1);
     if (isConnected(con1))
-    { if (isPressed(con1, PAD_START)) { current_scene = 0; } }
+    { if (isPressed(con1, PAD_START)) { current_scene = ID_TITLE; } }
 }
 
 /// HIGHSCORES
@@ -184,7 +219,7 @@ static void highscores_update(void)
 {
     pollController(&con1);
     if (isConnected(con1))
-    { if (isPressed(con1, PAD_START)) { current_scene = 0; } }
+    { if (isPressed(con1, PAD_START)) { current_scene = ID_TITLE; } }
 }
 
 SCENE sc_debug      = { debug_draw, debug_update };

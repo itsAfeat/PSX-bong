@@ -12,8 +12,15 @@ typedef struct {
 SPRITE paul_sprite;
 SPRITE puyi_sprite;
 SPRITE title_sprite;
+SPRITE backTL_sprite;
+SPRITE backTR_sprite;
+SPRITE backBL_sprite;
+SPRITE backBR_sprite;
 
-char *TIMs[] = {"\\PAUL.TIM;1", "\\PUYI.TIM;1", "\\TITLE.TIM;1"};
+char *TIMs[] = {"\\PAUL.TIM;1", "\\PUYI.TIM;1",
+				"\\TITLE.TIM;1", "\\BACKTL.TIM;1",
+				"\\BACKTR.TIM;1", "\\BACKBL.TIM;1",
+				"\\BACKBR.TIM;1"};
 SPRITE **SPRITEs;
 
 

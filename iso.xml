@@ -65,6 +65,10 @@
 			<file name="PUYI.TIM"		type="data" source="${PROJECT_SOURCE_DIR}/TIMs/PUYI.TIM"/>
 			<file name="FONT8X16.TIM"	type="data" source="${PROJECT_SOURCE_DIR}/TIMs/FONT8X16.TIM"/>
 			<file name="TITLE.TIM"		type="data" source="${PROJECT_SOURCE_DIR}/TIMs/TITLE.TIM"/>
+			<file name="BACKTL.TIM"		type="data" source="${PROJECT_SOURCE_DIR}/TIMs/BACKGROUNDTL.TIM"/>
+			<file name="BACKTR.TIM"		type="data" source="${PROJECT_SOURCE_DIR}/TIMs/BACKGROUNDTR.TIM"/>
+			<file name="BACKBL.TIM"		type="data" source="${PROJECT_SOURCE_DIR}/TIMs/BACKGROUNDBL.TIM"/>
+			<file name="BACKBR.TIM"		type="data" source="${PROJECT_SOURCE_DIR}/TIMs/BACKGROUNDBR.TIM"/>
 			<!--
 				This file is only required if you are using dynamic linking
 				(see the system/dynlink example). It contains the executable's
