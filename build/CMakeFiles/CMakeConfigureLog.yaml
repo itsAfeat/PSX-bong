@@ -30,7 +30,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        C:/Users/BabyP/Desktop/Programming/PS1/Bong/build/CMakeFiles/3.26.4/CompilerIdC/a.out
+        C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/build/CMakeFiles/3.26.4/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -72,7 +72,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        C:/Users/BabyP/Desktop/Programming/PS1/Bong/build/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.o
+        C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/build/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "message-v1"
@@ -96,8 +96,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/BabyP/Desktop/Programming/PS1/Bong/build/CMakeFiles/CMakeScratch/TryCompile-49m5ox"
-      binary: "C:/Users/BabyP/Desktop/Programming/PS1/Bong/build/CMakeFiles/CMakeScratch/TryCompile-49m5ox"
+      source: "C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/build/CMakeFiles/CMakeScratch/TryCompile-gq2ivp"
+      binary: "C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/build/CMakeFiles/CMakeScratch/TryCompile-gq2ivp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -109,9 +109,9 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/BabyP/Desktop/Programming/PS1/Bong/build/CMakeFiles/CMakeScratch/TryCompile-49m5ox
+        Change Dir: C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/build/CMakeFiles/CMakeScratch/TryCompile-gq2ivp
         
-        Run Build Command(s):C:/PSn00bSDK/bin/ninja.exe -v cmTC_0e522 && [1/2] C:\\PSn00bSDK\\bin\\mipsel-none-elf-gcc.exe -DNDEBUG=1 -DPSN00BSDK=1  -v -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -o CMakeFiles/cmTC_0e522.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s):C:/PSn00bSDK/bin/ninja.exe -v cmTC_7cca5 && [1/2] C:\\PSn00bSDK\\bin\\mipsel-none-elf-gcc.exe -DNDEBUG=1 -DPSN00BSDK=1  -v -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -o CMakeFiles/cmTC_7cca5.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_AS_OPTIONS='--strip-local-absolute'
         COLLECT_GCC=C:\\PSn00bSDK\\bin\\mipsel-none-elf-gcc.exe
@@ -120,8 +120,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 12.3.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_0e522.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_0e522.dir/'
-         c:/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.3.0/cc1.exe -quiet -v -imultilib soft-float -iprefix c:\\psn00bsdk\\bin\\../lib/gcc/mipsel-none-elf/12.3.0/ -D NDEBUG=1 -D PSN00BSDK=1 C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0e522.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -mips1 -g -O2 -version -fdiagnostics-color=always -ffreestanding -fno-builtin -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -o C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccruFZVW.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_7cca5.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_7cca5.dir/'
+         c:/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.3.0/cc1.exe -quiet -v -imultilib soft-float -iprefix c:\\psn00bsdk\\bin\\../lib/gcc/mipsel-none-elf/12.3.0/ -D NDEBUG=1 -D PSN00BSDK=1 C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7cca5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -mips1 -g -O2 -version -fdiagnostics-color=always -ffreestanding -fno-builtin -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -o C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccnWZqWr.s
         GNU C17 (GCC) version 12.3.0 (mipsel-none-elf)
         	compiled by GNU C version 10-win32 20220113, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -140,13 +140,13 @@ events:
         	compiled by GNU C version 10-win32 20220113, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 11ca3c49f916936f6199dc31c83400d5
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_0e522.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_0e522.dir/'
-         c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/bin/as.exe -v -EL -mips1 -mno-mt -O2 -g -mabi=32 -march=r3000 -mtune=r3000 -msoft-float --strip-local-absolute -o CMakeFiles/cmTC_0e522.dir/CMakeCCompilerABI.c.obj C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccruFZVW.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_7cca5.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_7cca5.dir/'
+         c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/bin/as.exe -v -EL -mips1 -mno-mt -O2 -g -mabi=32 -march=r3000 -mtune=r3000 -msoft-float --strip-local-absolute -o CMakeFiles/cmTC_7cca5.dir/CMakeCCompilerABI.c.obj C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccnWZqWr.s
         GNU assembler version 2.40 (mipsel-none-elf) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=c:/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.3.0/;c:/psn00bsdk/bin/../libexec/gcc/;c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/bin/
         LIBRARY_PATH=c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/soft-float/;c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/lib/soft-float/;c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/;c:/psn00bsdk/bin/../lib/gcc/;c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_0e522.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_0e522.dir/CMakeCCompilerABI.c.'\x0d
-        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f libcmTC_0e522.a && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ar.exe qc libcmTC_0e522.a  CMakeFiles/cmTC_0e522.dir/CMakeCCompilerABI.c.obj && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ranlib.exe libcmTC_0e522.a && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_7cca5.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_7cca5.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f libcmTC_7cca5.a && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ar.exe qc libcmTC_7cca5.a  CMakeFiles/cmTC_7cca5.dir/CMakeCCompilerABI.c.obj && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ranlib.exe libcmTC_7cca5.a && cd ."
         
       exitCode: 0
   -
@@ -178,9 +178,9 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(mipsel-none-elf-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: C:/Users/BabyP/Desktop/Programming/PS1/Bong/build/CMakeFiles/CMakeScratch/TryCompile-49m5ox]
+        ignore line: [Change Dir: C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/build/CMakeFiles/CMakeScratch/TryCompile-gq2ivp]
         ignore line: []
-        ignore line: [Run Build Command(s):C:/PSn00bSDK/bin/ninja.exe -v cmTC_0e522 && [1/2] C:\\PSn00bSDK\\bin\\mipsel-none-elf-gcc.exe -DNDEBUG=1 -DPSN00BSDK=1  -v -g -Wa --strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -o CMakeFiles/cmTC_0e522.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s):C:/PSn00bSDK/bin/ninja.exe -v cmTC_7cca5 && [1/2] C:\\PSn00bSDK\\bin\\mipsel-none-elf-gcc.exe -DNDEBUG=1 -DPSN00BSDK=1  -v -g -Wa --strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -o CMakeFiles/cmTC_7cca5.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_AS_OPTIONS='--strip-local-absolute']
         ignore line: [COLLECT_GCC=C:\\PSn00bSDK\\bin\\mipsel-none-elf-gcc.exe]
@@ -189,8 +189,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.3.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_0e522.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_0e522.dir/']
-        ignore line: [ c:/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.3.0/cc1.exe -quiet -v -imultilib soft-float -iprefix c:\\psn00bsdk\\bin\\../lib/gcc/mipsel-none-elf/12.3.0/ -D NDEBUG=1 -D PSN00BSDK=1 C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0e522.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -mips1 -g -O2 -version -fdiagnostics-color=always -ffreestanding -fno-builtin -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -o C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccruFZVW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_7cca5.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_7cca5.dir/']
+        ignore line: [ c:/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.3.0/cc1.exe -quiet -v -imultilib soft-float -iprefix c:\\psn00bsdk\\bin\\../lib/gcc/mipsel-none-elf/12.3.0/ -D NDEBUG=1 -D PSN00BSDK=1 C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7cca5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -mips1 -g -O2 -version -fdiagnostics-color=always -ffreestanding -fno-builtin -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -o C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccnWZqWr.s]
         ignore line: [GNU C17 (GCC) version 12.3.0 (mipsel-none-elf)]
         ignore line: [	compiled by GNU C version 10-win32 20220113  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -209,8 +209,8 @@ events:
         ignore line: [	compiled by GNU C version 10-win32 20220113  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 11ca3c49f916936f6199dc31c83400d5]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_0e522.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_0e522.dir/']
-        ignore line: [ c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/bin/as.exe -v -EL -mips1 -mno-mt -O2 -g -mabi=32 -march=r3000 -mtune=r3000 -msoft-float --strip-local-absolute -o CMakeFiles/cmTC_0e522.dir/CMakeCCompilerABI.c.obj C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccruFZVW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_7cca5.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_7cca5.dir/']
+        ignore line: [ c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/bin/as.exe -v -EL -mips1 -mno-mt -O2 -g -mabi=32 -march=r3000 -mtune=r3000 -msoft-float --strip-local-absolute -o CMakeFiles/cmTC_7cca5.dir/CMakeCCompilerABI.c.obj C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccnWZqWr.s]
         ignore line: [GNU assembler version 2.40 (mipsel-none-elf) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=c:/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.3.0/]
         ignore line: [c:/psn00bsdk/bin/../libexec/gcc/]
@@ -220,8 +220,8 @@ events:
         ignore line: [c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/]
         ignore line: [c:/psn00bsdk/bin/../lib/gcc/]
         ignore line: [c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_0e522.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_0e522.dir/CMakeCCompilerABI.c.'\x0d]
-        ignore line: [[2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f libcmTC_0e522.a && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ar.exe qc libcmTC_0e522.a  CMakeFiles/cmTC_0e522.dir/CMakeCCompilerABI.c.obj && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ranlib.exe libcmTC_0e522.a && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-O2' '-o' 'CMakeFiles/cmTC_7cca5.dir/CMakeCCompilerABI.c.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_7cca5.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f libcmTC_7cca5.a && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ar.exe qc libcmTC_7cca5.a  CMakeFiles/cmTC_7cca5.dir/CMakeCCompilerABI.c.obj && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ranlib.exe libcmTC_7cca5.a && cd ."]
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -239,8 +239,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/BabyP/Desktop/Programming/PS1/Bong/build/CMakeFiles/CMakeScratch/TryCompile-x5hd1w"
-      binary: "C:/Users/BabyP/Desktop/Programming/PS1/Bong/build/CMakeFiles/CMakeScratch/TryCompile-x5hd1w"
+      source: "C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/build/CMakeFiles/CMakeScratch/TryCompile-7cnd5o"
+      binary: "C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/build/CMakeFiles/CMakeScratch/TryCompile-7cnd5o"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -252,9 +252,9 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/BabyP/Desktop/Programming/PS1/Bong/build/CMakeFiles/CMakeScratch/TryCompile-x5hd1w
+        Change Dir: C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/build/CMakeFiles/CMakeScratch/TryCompile-7cnd5o
         
-        Run Build Command(s):C:/PSn00bSDK/bin/ninja.exe -v cmTC_a6935 && [1/2] C:\\PSn00bSDK\\bin\\mipsel-none-elf-g++.exe -DNDEBUG=1 -DPSN00BSDK=1  -v -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -fno-exceptions -fno-rtti -fno-unwind-tables -fno-threadsafe-statics -fno-use-cxa-atexit -O2 -o CMakeFiles/cmTC_a6935.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s):C:/PSn00bSDK/bin/ninja.exe -v cmTC_5923a && [1/2] C:\\PSn00bSDK\\bin\\mipsel-none-elf-g++.exe -DNDEBUG=1 -DPSN00BSDK=1  -v -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -fno-exceptions -fno-rtti -fno-unwind-tables -fno-threadsafe-statics -fno-use-cxa-atexit -O2 -o CMakeFiles/cmTC_5923a.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_AS_OPTIONS='--strip-local-absolute'
         COLLECT_GCC=C:\\PSn00bSDK\\bin\\mipsel-none-elf-g++.exe
@@ -263,8 +263,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 12.3.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_a6935.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_a6935.dir/'
-         c:/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.3.0/cc1plus.exe -quiet -v -imultilib soft-float -iprefix c:\\psn00bsdk\\bin\\../lib/gcc/mipsel-none-elf/12.3.0/ -D NDEBUG=1 -D PSN00BSDK=1 C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a6935.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -mips1 -g -O2 -version -fdiagnostics-color=always -ffreestanding -fno-builtin -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fno-exceptions -fno-rtti -fno-unwind-tables -fno-threadsafe-statics -fno-use-cxa-atexit -o C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccHO5QFj.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_5923a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_5923a.dir/'
+         c:/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.3.0/cc1plus.exe -quiet -v -imultilib soft-float -iprefix c:\\psn00bsdk\\bin\\../lib/gcc/mipsel-none-elf/12.3.0/ -D NDEBUG=1 -D PSN00BSDK=1 C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5923a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -mips1 -g -O2 -version -fdiagnostics-color=always -ffreestanding -fno-builtin -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fno-exceptions -fno-rtti -fno-unwind-tables -fno-threadsafe-statics -fno-use-cxa-atexit -o C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccY486sb.s
         GNU C++17 (GCC) version 12.3.0 (mipsel-none-elf)
         	compiled by GNU C version 10-win32 20220113, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -289,13 +289,13 @@ events:
         	compiled by GNU C version 10-win32 20220113, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 9a20aab553b51137142df019fedc971f
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_a6935.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_a6935.dir/'
-         c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/bin/as.exe -v -EL -mips1 -mno-mt -O2 -g -mabi=32 -march=r3000 -mtune=r3000 -msoft-float --strip-local-absolute -o CMakeFiles/cmTC_a6935.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccHO5QFj.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_5923a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_5923a.dir/'
+         c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/bin/as.exe -v -EL -mips1 -mno-mt -O2 -g -mabi=32 -march=r3000 -mtune=r3000 -msoft-float --strip-local-absolute -o CMakeFiles/cmTC_5923a.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccY486sb.s
         GNU assembler version 2.40 (mipsel-none-elf) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=c:/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.3.0/;c:/psn00bsdk/bin/../libexec/gcc/;c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/bin/
         LIBRARY_PATH=c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/soft-float/;c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/lib/soft-float/;c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/;c:/psn00bsdk/bin/../lib/gcc/;c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_a6935.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_a6935.dir/CMakeCXXCompilerABI.cpp.'\x0d
-        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f libcmTC_a6935.a && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ar.exe qc libcmTC_a6935.a  CMakeFiles/cmTC_a6935.dir/CMakeCXXCompilerABI.cpp.obj && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ranlib.exe libcmTC_a6935.a && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_5923a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_5923a.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f libcmTC_5923a.a && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ar.exe qc libcmTC_5923a.a  CMakeFiles/cmTC_5923a.dir/CMakeCXXCompilerABI.cpp.obj && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ranlib.exe libcmTC_5923a.a && cd ."
         
       exitCode: 0
   -
@@ -331,9 +331,9 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(mipsel-none-elf-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: C:/Users/BabyP/Desktop/Programming/PS1/Bong/build/CMakeFiles/CMakeScratch/TryCompile-x5hd1w]
+        ignore line: [Change Dir: C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/build/CMakeFiles/CMakeScratch/TryCompile-7cnd5o]
         ignore line: []
-        ignore line: [Run Build Command(s):C:/PSn00bSDK/bin/ninja.exe -v cmTC_a6935 && [1/2] C:\\PSn00bSDK\\bin\\mipsel-none-elf-g++.exe -DNDEBUG=1 -DPSN00BSDK=1  -v -g -Wa --strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -fno-exceptions -fno-rtti -fno-unwind-tables -fno-threadsafe-statics -fno-use-cxa-atexit -O2 -o CMakeFiles/cmTC_a6935.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s):C:/PSn00bSDK/bin/ninja.exe -v cmTC_5923a && [1/2] C:\\PSn00bSDK\\bin\\mipsel-none-elf-g++.exe -DNDEBUG=1 -DPSN00BSDK=1  -v -g -Wa --strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -fno-exceptions -fno-rtti -fno-unwind-tables -fno-threadsafe-statics -fno-use-cxa-atexit -O2 -o CMakeFiles/cmTC_5923a.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_AS_OPTIONS='--strip-local-absolute']
         ignore line: [COLLECT_GCC=C:\\PSn00bSDK\\bin\\mipsel-none-elf-g++.exe]
@@ -342,8 +342,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.3.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_a6935.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_a6935.dir/']
-        ignore line: [ c:/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.3.0/cc1plus.exe -quiet -v -imultilib soft-float -iprefix c:\\psn00bsdk\\bin\\../lib/gcc/mipsel-none-elf/12.3.0/ -D NDEBUG=1 -D PSN00BSDK=1 C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a6935.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -mips1 -g -O2 -version -fdiagnostics-color=always -ffreestanding -fno-builtin -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fno-exceptions -fno-rtti -fno-unwind-tables -fno-threadsafe-statics -fno-use-cxa-atexit -o C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccHO5QFj.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_5923a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_5923a.dir/']
+        ignore line: [ c:/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.3.0/cc1plus.exe -quiet -v -imultilib soft-float -iprefix c:\\psn00bsdk\\bin\\../lib/gcc/mipsel-none-elf/12.3.0/ -D NDEBUG=1 -D PSN00BSDK=1 C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5923a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -mips1 -g -O2 -version -fdiagnostics-color=always -ffreestanding -fno-builtin -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fno-exceptions -fno-rtti -fno-unwind-tables -fno-threadsafe-statics -fno-use-cxa-atexit -o C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccY486sb.s]
         ignore line: [GNU C++17 (GCC) version 12.3.0 (mipsel-none-elf)]
         ignore line: [	compiled by GNU C version 10-win32 20220113  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -368,8 +368,8 @@ events:
         ignore line: [	compiled by GNU C version 10-win32 20220113  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 9a20aab553b51137142df019fedc971f]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_a6935.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_a6935.dir/']
-        ignore line: [ c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/bin/as.exe -v -EL -mips1 -mno-mt -O2 -g -mabi=32 -march=r3000 -mtune=r3000 -msoft-float --strip-local-absolute -o CMakeFiles/cmTC_a6935.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccHO5QFj.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_5923a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_5923a.dir/']
+        ignore line: [ c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/bin/as.exe -v -EL -mips1 -mno-mt -O2 -g -mabi=32 -march=r3000 -mtune=r3000 -msoft-float --strip-local-absolute -o CMakeFiles/cmTC_5923a.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\BabyP\\AppData\\Local\\Temp\\ccY486sb.s]
         ignore line: [GNU assembler version 2.40 (mipsel-none-elf) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=c:/psn00bsdk/bin/../libexec/gcc/mipsel-none-elf/12.3.0/]
         ignore line: [c:/psn00bsdk/bin/../libexec/gcc/]
@@ -379,8 +379,8 @@ events:
         ignore line: [c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/]
         ignore line: [c:/psn00bsdk/bin/../lib/gcc/]
         ignore line: [c:/psn00bsdk/bin/../lib/gcc/mipsel-none-elf/12.3.0/../../../../mipsel-none-elf/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_a6935.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_a6935.dir/CMakeCXXCompilerABI.cpp.'\x0d]
-        ignore line: [[2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f libcmTC_a6935.a && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ar.exe qc libcmTC_a6935.a  CMakeFiles/cmTC_a6935.dir/CMakeCXXCompilerABI.cpp.obj && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ranlib.exe libcmTC_a6935.a && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'NDEBUG=1' '-D' 'PSN00BSDK=1' '-v' '-g' '-ffreestanding' '-fno-builtin' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fno-strict-overflow' '-msoft-float' '-march=r3000' '-mtune=r3000' '-mabi=32' '-mno-mt' '-mno-llsc' '-fno-exceptions' '-fno-rtti' '-fno-unwind-tables' '-fno-threadsafe-statics' '-fno-use-cxa-atexit' '-O2' '-o' 'CMakeFiles/cmTC_5923a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mips1' '-dumpdir' 'CMakeFiles/cmTC_5923a.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f libcmTC_5923a.a && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ar.exe qc libcmTC_5923a.a  CMakeFiles/cmTC_5923a.dir/CMakeCXXCompilerABI.cpp.obj && C:\\PSn00bSDK\\bin\\mipsel-none-elf-ranlib.exe libcmTC_5923a.a && cd ."]
         ignore line: []
         ignore line: []
         implicit libs: []

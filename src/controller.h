@@ -46,7 +46,7 @@ int isType(CONTROLLER con, uint8_t type)
 int isPressed(CONTROLLER con, uint16_t btn)
 {
     // If the current is btn but not the last
-    if (!(con1.curr_pressed&btn) && con1.last_pressed&btn)
+    if (!(con.curr_pressed&btn) && con.last_pressed&btn)
     { return 1; }
     return 0;
 }
@@ -54,7 +54,7 @@ int isPressed(CONTROLLER con, uint16_t btn)
 int isHeld(CONTROLLER con, uint16_t btn)
 {
     // Both the last and current are pressed
-    if (!(con1.curr_pressed&btn) && !(con1.last_pressed&btn))
+    if (!(con.curr_pressed&btn) && !(con.last_pressed&btn))
     { return 1; }
     return 0;
 }
@@ -62,7 +62,7 @@ int isHeld(CONTROLLER con, uint16_t btn)
 int isReleased(CONTROLLER con, uint16_t btn)
 {
     // If the last is the btn but the current
-    if (con1.curr_pressed&btn && !(con1.last_pressed&btn))
+    if (con.curr_pressed&btn && !(con.last_pressed&btn))
     { return 1; }
     return 0;
 }

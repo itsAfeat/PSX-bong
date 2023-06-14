@@ -1,4 +1,4 @@
-#define DEBUG
+//#define DEBUG
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -27,6 +27,8 @@ void loadStuff()
     SPRITEs[4] = malloc(sizeof(SPRITE));
     SPRITEs[5] = malloc(sizeof(SPRITE));
     SPRITEs[6] = malloc(sizeof(SPRITE));
+    SPRITEs[7] = malloc(sizeof(SPRITE));
+    SPRITEs[8] = malloc(sizeof(SPRITE));
     SPRITEs[0] = &paul_sprite;
     SPRITEs[1] = &puyi_sprite;
     SPRITEs[2] = &title_sprite;
@@ -34,16 +36,28 @@ void loadStuff()
     SPRITEs[4] = &backTR_sprite;
     SPRITEs[5] = &backBL_sprite;
     SPRITEs[6] = &backBR_sprite;
+    SPRITEs[7] = &pad_sprite;
+    SPRITEs[8] = &ball_sprite;
     
     SCENEs[0] = &sc_title;
     SCENEs[1] = &sc_game;
     SCENEs[2] = &sc_win;
     SCENEs[3] = &sc_credits;
-    SCENEs[4] = &sc_highscores;
-    SCENEs[5] = &sc_debug;
+    SCENEs[4] = &sc_debug;
+
+    // Load the 8x16 font
+    TIM_IMAGE _tim;
+    u_int* _buffer = (u_int*)loadFile("\\FONT8X16.TIM;1");
+    loadTexture(_buffer, &_tim);
+    getFont(&_tim, &font8x16, 8, 16, 28);
+    free(_buffer);
 
     for(int i = 0; i < (sizeof(TIMs)/sizeof(TIMs[0])); i++)
     {
+        ClearOTagR(ot[db], OTLEN);
+        nextpri = printFont(0, 256-48, ot[db], nextpri, "Loading...", &font8x16);
+        display();
+
         TIM_IMAGE _tim;
         u_int* _buffer = (u_int*)loadFile(TIMs[i]);
         loadTexture(_buffer, &_tim);
@@ -51,21 +65,12 @@ void loadStuff()
 
         free(_buffer);
     }
-
-    // Load the 8x16 font
-    TIM_IMAGE _tim;
-    u_int* _buffer = (u_int*)loadFile("\\FONT8X16.TIM;1");
-    loadTexture(_buffer, &_tim);
-    getFont(&_tim, &font8x16, 8, 16, 28);
-
-    free(_buffer);
 }
 
 int main()
 {
     init();
     controllerInit();
-    
     loadStuff();
 
     int center_x = 320/2-32;
@@ -79,6 +84,9 @@ int main()
 
     while (1)
     {
+        if (current_scene == ID_TITLE)
+        { rand_seed++; }
+
         SCENEs[current_scene]->update();
         SCENEs[current_scene]->draw();
         display();

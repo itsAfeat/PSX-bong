@@ -63,3 +63,34 @@ char* loadFile(const char* filename)
 
     return buff;
 }
+
+int clamp(int i, int min, int max)
+{
+    const int t = i  < min ? min : i;
+    return t > max ? max : t;
+}
+
+void flipAngle(int *a)
+{
+	int na = 360 - *a;
+    na = na < 0 ? 360+na : na;
+    *a = na;
+}
+
+void reflectAngle(int *a)
+{
+    if (*a < 180)
+    {
+        int na = 180 - *a;
+        *a = na;
+    }
+    else
+    {
+        int na = 180 - *a;
+        na = na < 0 ? 360+na : na;
+        *a = na;
+    }
+}
+
+int isBetween(int n, int min, int max)
+{ return (n >= min && n <= max); }

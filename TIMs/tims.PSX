@@ -1,12 +1,14 @@
 [TIM Files]
-File_0=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\BACKGROUNDBF.TIM
+File_0=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\BACKGROUNDBL.TIM
 File_1=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\BACKGROUNDBR.TIM
-File_2=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\BACKGROUNDTF.TIM
+File_2=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\BACKGROUNDTL.TIM
 File_3=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\BACKGROUNDTR.TIM
-File_4=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\FONT8X16.TIM
-File_5=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\PAUL.TIM
-File_6=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\PUYI.TIM
-File_7=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\TITLE.TIM
+File_4=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\BALL.TIM
+File_5=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\FONT8X16.TIM
+File_6=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\PAD.TIM
+File_7=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\PAUL.TIM
+File_8=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\PUYI.TIM
+File_9=C:\Users\BabyP\Desktop\Programming\PS1\Bong\TIMs\TITLE.TIM
 [Graphics Mode]
 Width=320
 Height=256

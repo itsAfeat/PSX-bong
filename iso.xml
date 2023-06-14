@@ -69,6 +69,8 @@
 			<file name="BACKTR.TIM"		type="data" source="${PROJECT_SOURCE_DIR}/TIMs/BACKGROUNDTR.TIM"/>
 			<file name="BACKBL.TIM"		type="data" source="${PROJECT_SOURCE_DIR}/TIMs/BACKGROUNDBL.TIM"/>
 			<file name="BACKBR.TIM"		type="data" source="${PROJECT_SOURCE_DIR}/TIMs/BACKGROUNDBR.TIM"/>
+			<file name="PAD.TIM"		type="data" source="${PROJECT_SOURCE_DIR}/TIMs/PAD.TIM"/>
+			<file name="BALL.TIM"		type="data" source="${PROJECT_SOURCE_DIR}/TIMs/BALL.TIM"/>
 			<!--
 				This file is only required if you are using dynamic linking
 				(see the system/dynlink example). It contains the executable's

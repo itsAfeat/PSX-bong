@@ -4,7 +4,7 @@
 
 	NOTE: all paths are relative to the build directory; if you want to include
 	a file from the source tree, you'll have to prepend its path with
-	C:/Users/BabyP/Desktop/Programming/PS1/Bong.
+	C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong.
 -->
 <iso_project>
 	<track type="data">
@@ -44,7 +44,7 @@
 			PSn00bSDK for obvious reasons, but can be dumped from an official
 			game using dumpsxiso or extracted from the Sony SDK.
 		-->
-		<!--<license file="C:/Users/BabyP/Desktop/Programming/PS1/Bong/license.dat" />-->
+		<!--<license file="C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/license.dat" />-->
 
 		<!--
 			Files and directories can be added to the disc by placing <file>
@@ -59,16 +59,18 @@
 			contain any number of files.
 		-->
 		<directory_tree>
-			<file name="SYSTEM.CNF"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Bong/system.cnf" />
+			<file name="SYSTEM.CNF"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/system.cnf" />
 			<file name="BONG.EXE"		type="data" source="bong.exe" />
-			<file name="PAUL.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Bong/TIMs/PAUL.TIM"/>
-			<file name="PUYI.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Bong/TIMs/PUYI.TIM"/>
-			<file name="FONT8X16.TIM"	type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Bong/TIMs/FONT8X16.TIM"/>
-			<file name="TITLE.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Bong/TIMs/TITLE.TIM"/>
-			<file name="BACKTL.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Bong/TIMs/BACKGROUNDTL.TIM"/>
-			<file name="BACKTR.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Bong/TIMs/BACKGROUNDTR.TIM"/>
-			<file name="BACKBL.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Bong/TIMs/BACKGROUNDBL.TIM"/>
-			<file name="BACKBR.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Bong/TIMs/BACKGROUNDBR.TIM"/>
+			<file name="PAUL.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/TIMs/PAUL.TIM"/>
+			<file name="PUYI.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/TIMs/PUYI.TIM"/>
+			<file name="FONT8X16.TIM"	type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/TIMs/FONT8X16.TIM"/>
+			<file name="TITLE.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/TIMs/TITLE.TIM"/>
+			<file name="BACKTL.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/TIMs/BACKGROUNDTL.TIM"/>
+			<file name="BACKTR.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/TIMs/BACKGROUNDTR.TIM"/>
+			<file name="BACKBL.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/TIMs/BACKGROUNDBL.TIM"/>
+			<file name="BACKBR.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/TIMs/BACKGROUNDBR.TIM"/>
+			<file name="PAD.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/TIMs/PAD.TIM"/>
+			<file name="BALL.TIM"		type="data" source="C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/TIMs/BALL.TIM"/>
 			<!--
 				This file is only required if you are using dynamic linking
 				(see the system/dynlink example). It contains the executable's
@@ -87,5 +89,5 @@
 		or MP3 format (using WAV or FLAC is highly recommended to preserve
 		audio quality if you have a lossless copy of the source track).
 	-->
-	<!--<track type="audio" source="C:/Users/BabyP/Desktop/Programming/PS1/Bong/track2.wav" />-->
+	<!--<track type="audio" source="C:/Users/BabyP/Desktop/Programming/PS1/Projects/Bong/track2.wav" />-->
 </iso_project>
